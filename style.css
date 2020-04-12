@@ -15,25 +15,51 @@ body {
     align-items: center;
     width: 250px;
     height: 220px;
+    position: relative;
+}
+
+.cactus-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 220px;  
 }
 
 .flowers-container {
 
 }
 
+.cactus-stem-left {
+    width: 60px;
+    height: 120px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px 30px 0px 15px;        
+    }
 
+.divider {
+    width: 8px;
+    height: 85px;
+    background-color: pink;
+    position: absolute;
+    bottom: 77px;
+    right: 135px;
+    border-radius:0px 0px 4px 4px ;
+
+}
 
 .cactus-stem-center {
-width: 80px;
+width: 100%;
 height: 200px;
 background-color: greenyellow;
 display: flex;
 justify-content: center;
 align-items: center;
-
+border-radius: 30px 30px 15px 15px;
 }
-
-.cactus-stem-left {}
 
 .spines-container {
     width: 100%;
