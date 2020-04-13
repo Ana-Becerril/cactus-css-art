@@ -21,7 +21,7 @@
 ## Features
 
 * You can make cactus blossom
-by hovering over his eyes. Try it! :cactus: :cherry_blossom:
+by hovering over his stem. Try it! :cactus: :cherry_blossom:
 
 
 
