@@ -28,7 +28,9 @@ body {
 
 
 .flowers-container {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cactus-stem-left {
@@ -127,6 +129,21 @@ border-radius: 30px 30px 15px 15px;
     background-color: green;
 }
 
+
+.flower { 
+    width: 8px;
+    height: 8px;
+    background-color: rgb(255, 0, 140);
+    border-radius: 1.5px 3px 3px 3px;
+}
+
+.flower-center { 
+    transform: rotate(40deg);
+}
+.flower-right { 
+
+    transform: rotate(85deg);
+}
 
 
 
