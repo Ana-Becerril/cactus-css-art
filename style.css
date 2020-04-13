@@ -15,25 +15,90 @@ body {
     align-items: center;
     width: 250px;
     height: 220px;
+    position: relative;
 }
+
+
+
+
+.cactus-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 220px;  
+    flex-direction: column;
+}
+
+.cactus-right {
+    height: 148px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 .flowers-container {
-
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.cactus-stem-left {
+    width: 50px;
+    height: 120px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px 30px 0px 25px;        
+    }
+
+.divider {
+    width: 5px;
+    height: 71px;
+    background-color: pink;
+    position: absolute;
+    border-radius:0px 0px 4px 4px ;
+}
+
+.divider-left {
+    bottom: 90px;
+    right: 165px;
+}
 
 
 .cactus-stem-center {
-width: 80px;
+width: 100%;
 height: 200px;
 background-color: greenyellow;
 display: flex;
 justify-content: center;
 align-items: center;
-
+border-radius: 30px 30px 15px 15px;
 }
 
-.cactus-stem-left {}
+
+.cactus-stem-right {
+    width: 50px;
+    height: 100px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px 30px 25px 0px;
+    position: absolute;
+    bottom: 77px; 
+}
+
+.divider-right {
+    width: 6px;
+    height: 85px;
+    bottom: 108px;
+    right: 79px;
+}
+
 
 .spines-container {
     width: 100%;
@@ -78,5 +143,36 @@ align-items: center;
 }
 
 
+.flower { 
+    display: none;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(255, 0, 140);
+    border-radius: 1.5px 3px 3px 3px;
+}
+
+.big-flower {
+    display: none;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(255, 0, 140);
+    border-radius: 3px 6px 6px 6px;
+}
+
+.flower-center { 
+    transform: rotate(40deg);
+}
 
 
+.flower-right { 
+    transform: rotate(85deg);
+}
+
+
+.cactus-container:hover .flowers-container >  .flower {
+    display: initial;
+}
+
+.cactus-container:hover .flowers-container > .big-flower {
+    display: initial;
+}
