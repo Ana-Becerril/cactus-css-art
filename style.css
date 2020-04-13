@@ -18,6 +18,9 @@ body {
     position: relative;
 }
 
+
+
+
 .cactus-center {
     display: flex;
     justify-content: center;
@@ -27,8 +30,16 @@ body {
     flex-direction: column;
 }
 
+.cactus-right {
+    height: 148px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 .flowers-container {
+    width: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,8 +64,8 @@ body {
 }
 
 .divider-left {
-    bottom: 85px;
-    right: 140px;
+    bottom: 90px;
+    right: 165px;
 }
 
 
@@ -84,8 +95,8 @@ border-radius: 30px 30px 15px 15px;
 .divider-right {
     width: 6px;
     height: 85px;
-    bottom: 103px;
-    right: 55px;
+    bottom: 108px;
+    right: 79px;
 }
 
 
@@ -133,10 +144,19 @@ border-radius: 30px 30px 15px 15px;
 
 
 .flower { 
+    display: none;
     width: 8px;
     height: 8px;
     background-color: rgb(255, 0, 140);
     border-radius: 1.5px 3px 3px 3px;
+}
+
+.big-flower {
+    display: none;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(255, 0, 140);
+    border-radius: 3px 6px 6px 6px;
 }
 
 .flower-center { 
@@ -145,9 +165,14 @@ border-radius: 30px 30px 15px 15px;
 
 
 .flower-right { 
-
     transform: rotate(85deg);
 }
 
 
+.cactus-container:hover .flowers-container >  .flower {
+    display: initial;
+}
 
+.cactus-container:hover .flowers-container > .big-flower {
+    display: initial;
+}
