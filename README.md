@@ -20,7 +20,7 @@
 
 ## Features
 
-* You can make Hatty cactus blossom
+* You can make cactus blossom
 by hovering over his eyes. Try it! :cactus: :cherry_blossom:
 
 
